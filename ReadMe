@@ -1,0 +1,42 @@
+Step for project Run
+Run below commands
+
+1. npm i
+2. npm start;
+
+1.Add Wallet
+ 
+API URL : http://localhost:3000/wallet
+Method: POST
+BODY: 
+{
+	    "sno": 2,
+        "date": "2020-05-22",
+        "price":400,
+        "description": "Food",
+        "status": "DR"
+}
+
+2. Get Wallet
+API URL : http://localhost:3000/wallet
+Method: GET
+
+3. Modify Wallet
+API URL : http://localhost:3000/wallet
+Method: GET
+Body:
+{
+    	"sno": 2,
+        "date": "2020-05-22",
+        "price":400,
+        "description": "Food EXP",
+        "status": "DR"
+}
+
+4. Delete Wallet
+API URL : http://localhost:3000/wallet
+Method: DELETE
+Body:
+{
+	"sno": 2
+}
